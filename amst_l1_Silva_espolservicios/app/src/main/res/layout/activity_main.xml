@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSidweb"
+        android:layout_width="151dp"
+        android:layout_height="68dp"
+        android:onClick="cambiarSidweb"
+        android:text="Sidweb" />
+
+    <Button
+        android:id="@+id/btnSisAca"
+        android:layout_width="157dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="12dp"
+        android:onClick="cambiarVinculosSociedad"
+        android:text="Vinculos con la sociedad" />
+
+    <Button
+        android:id="@+id/btnVinSoc"
+        android:layout_width="163dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="44dp"
+        android:onClick="cambiarBienestarEstudiantil"
+        android:text="Bienestar estudiantil" />
+
+    <Button
+        android:id="@+id/btnBieEst"
+        android:layout_width="148dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="cambiarSistemaAcademico"
+        android:text="Sistema Academico" />
+
+</LinearLayout>
